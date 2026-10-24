@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Doping: Adding Special Impurity Atoms</text>
+
+  <!-- ===== N-TYPE ===== -->
+  <text x="190" y="66" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e40af">n-type (Donor atoms)</text>
+  <rect x="40" y="80" width="300" height="60" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="330" y="100" text-anchor="end" font-size="13" fill="#1e40af">Conduction Band</text>
+  <g font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">
+    <circle cx="80" cy="118" r="10" fill="#2563eb"/><text x="80" y="123">−</text>
+    <circle cx="145" cy="118" r="10" fill="#2563eb"/><text x="145" y="123">−</text>
+    <circle cx="210" cy="118" r="10" fill="#2563eb"/><text x="210" y="123">−</text>
+    <circle cx="275" cy="118" r="10" fill="#2563eb"/><text x="275" y="123">−</text>
+  </g>
+  <!-- donor level -->
+  <g stroke="#7c3aed" stroke-width="3">
+    <line x1="65" y1="170" x2="95" y2="170"/><line x1="130" y1="170" x2="160" y2="170"/>
+    <line x1="195" y1="170" x2="225" y2="170"/><line x1="260" y1="170" x2="290" y2="170"/>
+  </g>
+  <g stroke="#7c3aed" stroke-width="2" fill="none">
+    <path d="M80 165 L80 132"/><path d="M145 165 L145 132"/><path d="M210 165 L210 132"/><path d="M275 165 L275 132"/>
+  </g>
+  <text x="190" y="192" text-anchor="middle" font-size="13" fill="#6d28d9">donor atoms sit just below the conduction band</text>
+  <rect x="40" y="240" width="300" height="60" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="330" y="292" text-anchor="end" font-size="13" fill="#991b1b">Valence Band (full)</text>
+  <text x="190" y="335" text-anchor="middle" font-size="14" fill="#222">Tiny jump → they easily GIVE electrons</text>
+  <text x="190" y="355" text-anchor="middle" font-size="14" fill="#222">to the conduction band.</text>
+  <text x="190" y="380" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e40af">Extra free ELECTRONS (−)</text>
+
+  <!-- divider -->
+  <line x1="380" y1="55" x2="380" y2="395" stroke="#ccc" stroke-width="1.5" stroke-dasharray="5 5"/>
+
+  <!-- ===== P-TYPE ===== -->
+  <text x="570" y="66" text-anchor="middle" font-size="18" font-weight="bold" fill="#991b1b">p-type (Acceptor atoms)</text>
+  <rect x="420" y="80" width="300" height="60" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="710" y="100" text-anchor="end" font-size="13" fill="#1e40af">Conduction Band (empty)</text>
+  <text x="570" y="192" text-anchor="middle" font-size="13" fill="#6d28d9">acceptor atoms sit just above the valence band</text>
+  <!-- acceptor level with captured electrons -->
+  <g stroke="#7c3aed" stroke-width="3">
+    <line x1="445" y1="215" x2="475" y2="215"/><line x1="510" y1="215" x2="540" y2="215"/>
+    <line x1="575" y1="215" x2="605" y2="215"/><line x1="640" y1="215" x2="670" y2="215"/>
+  </g>
+  <g font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">
+    <circle cx="460" cy="215" r="9" fill="#2563eb"/><text x="460" y="219">−</text>
+    <circle cx="525" cy="215" r="9" fill="#2563eb"/><text x="525" y="219">−</text>
+    <circle cx="590" cy="215" r="9" fill="#2563eb"/><text x="590" y="219">−</text>
+    <circle cx="655" cy="215" r="9" fill="#2563eb"/><text x="655" y="219">−</text>
+  </g>
+  <g stroke="#7c3aed" stroke-width="2"><path d="M460 255 L460 228"/><path d="M525 255 L525 228"/><path d="M590 255 L590 228"/><path d="M655 255 L655 228"/></g>
+  <rect x="420" y="240" width="300" height="60" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="710" y="292" text-anchor="end" font-size="13" fill="#991b1b">Valence Band</text>
+  <g fill="#fff" stroke="#dc2626" stroke-width="2.5">
+    <circle cx="460" cy="264" r="10"/><circle cx="525" cy="264" r="10"/><circle cx="590" cy="264" r="10"/><circle cx="655" cy="264" r="10"/>
+  </g>
+  <text x="570" y="335" text-anchor="middle" font-size="14" fill="#222">They have a vacancy → they ACCEPT electrons</text>
+  <text x="570" y="355" text-anchor="middle" font-size="14" fill="#222">from the valence band, leaving holes behind.</text>
+  <text x="570" y="380" text-anchor="middle" font-size="15" font-weight="bold" fill="#991b1b">Extra free HOLES (○)</text>
+
+  <text x="380" y="410" text-anchor="middle" font-size="12" fill="#555">Pure (intrinsic) semiconductor: no impurities, valence band full, conduction band empty, almost no current.</text>
+</svg>

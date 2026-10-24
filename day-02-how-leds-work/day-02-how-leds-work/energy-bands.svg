@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="720" height="400" fill="#ffffff"/>
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Energy Bands in a Semiconductor Crystal</text>
+
+  <!-- energy axis -->
+  <line x1="60" y1="360" x2="60" y2="60" stroke="#444" stroke-width="2"/>
+  <polygon points="60,52 54,66 66,66" fill="#444"/>
+  <text x="40" y="210" font-size="15" fill="#444" transform="rotate(-90 40 210)" text-anchor="middle">Energy</text>
+
+  <!-- conduction band -->
+  <rect x="100" y="70" width="360" height="70" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="280" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e40af">Conduction Band</text>
+  <text x="280" y="122" text-anchor="middle" font-size="13" fill="#1e40af">(almost empty)</text>
+  <!-- electron that jumped up -->
+  <circle cx="400" cy="112" r="11" fill="#2563eb"/>
+  <text x="400" y="117" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">−</text>
+
+  <!-- gap -->
+  <rect x="100" y="140" width="360" height="110" fill="#f3f4f6"/>
+  <text x="250" y="200" text-anchor="middle" font-size="15" fill="#6b7280">Band Gap (NOT allowed)</text>
+  <!-- jump arrow -->
+  <path d="M400 268 Q 430 195 400 128" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="400,124 393,138 408,136" fill="#f59e0b"/>
+  <text x="438" y="200" font-size="13" fill="#b45309">heat gives</text>
+  <text x="438" y="216" font-size="13" fill="#b45309">a "lucky"</text>
+  <text x="438" y="232" font-size="13" fill="#b45309">electron energy</text>
+
+  <!-- valence band -->
+  <rect x="100" y="250" width="360" height="90" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <g font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">
+    <circle cx="130" cy="275" r="11" fill="#2563eb"/><text x="130" y="280">−</text>
+    <circle cx="165" cy="275" r="11" fill="#2563eb"/><text x="165" y="280">−</text>
+    <circle cx="200" cy="275" r="11" fill="#2563eb"/><text x="200" y="280">−</text>
+    <circle cx="235" cy="275" r="11" fill="#2563eb"/><text x="235" y="280">−</text>
+    <circle cx="270" cy="275" r="11" fill="#2563eb"/><text x="270" y="280">−</text>
+    <circle cx="305" cy="275" r="11" fill="#2563eb"/><text x="305" y="280">−</text>
+    <circle cx="340" cy="275" r="11" fill="#2563eb"/><text x="340" y="280">−</text>
+    <circle cx="370" cy="275" r="11" fill="#2563eb"/><text x="370" y="280">−</text>
+    <circle cx="430" cy="275" r="11" fill="#2563eb"/><text x="430" y="280">−</text>
+  </g>
+  <!-- hole -->
+  <circle cx="400" cy="275" r="11" fill="#fff" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="280" y="322" text-anchor="middle" font-size="16" font-weight="bold" fill="#991b1b">Valence Band (full of electrons)</text>
+
+  <!-- labels on right -->
+  <text x="490" y="105" font-size="14" fill="#1e40af">● electron here can move</text>
+  <text x="490" y="123" font-size="14" fill="#1e40af">  freely → current</text>
+  <text x="490" y="270" font-size="14" fill="#991b1b">○ = hole (empty space)</text>
+  <text x="490" y="288" font-size="14" fill="#991b1b">  neighbours shift into it,</text>
+  <text x="490" y="306" font-size="14" fill="#991b1b">  so the hole "moves" too</text>
+
+  <text x="360" y="385" text-anchor="middle" font-size="13" fill="#555">In a single atom: separate energy levels. In a crystal: levels merge into allowed bands.</text>
+</svg>

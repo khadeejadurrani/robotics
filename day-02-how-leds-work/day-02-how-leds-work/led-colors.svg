@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 385" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="spec" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7f1d1d"/>
+      <stop offset="0.12" stop-color="#ef4444"/>
+      <stop offset="0.3" stop-color="#f97316"/>
+      <stop offset="0.45" stop-color="#facc15"/>
+      <stop offset="0.6" stop-color="#22c55e"/>
+      <stop offset="0.78" stop-color="#3b82f6"/>
+      <stop offset="0.92" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="385" fill="#ffffff"/>
+  <text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Why LEDs Have Different Colours</text>
+
+  <!-- small gap -->
+  <g transform="translate(70,78)">
+    <rect x="0" y="0" width="140" height="40" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <rect x="0" y="80" width="140" height="40" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <path d="M70 42 q-8 6 0 12 t0 12 t0 12" fill="none" stroke="#ef4444" stroke-width="3"/>
+    <text x="70" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">Small gap</text>
+    <text x="70" y="163" text-anchor="middle" font-size="13" fill="#b91c1c">→ RED light</text>
+  </g>
+  <!-- medium gap -->
+  <g transform="translate(310,63)">
+    <rect x="0" y="0" width="140" height="40" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <rect x="0" y="95" width="140" height="40" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <path d="M70 42 q-8 6 0 12 t0 12 t0 12 t0 12 t0 12" fill="none" stroke="#22c55e" stroke-width="3"/>
+    <text x="70" y="160" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">Medium gap</text>
+    <text x="70" y="178" text-anchor="middle" font-size="13" fill="#15803d">→ GREEN light</text>
+  </g>
+  <!-- big gap -->
+  <g transform="translate(550,48)">
+    <rect x="0" y="0" width="140" height="40" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <rect x="0" y="110" width="140" height="40" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <path d="M70 42 q-8 6 0 12 t0 12 t0 12 t0 12 t0 12 t0 12 t0 12" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    <text x="70" y="175" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">Big gap</text>
+    <text x="70" y="193" text-anchor="middle" font-size="13" fill="#1d4ed8">→ BLUE / violet light</text>
+  </g>
+
+  <!-- spectrum -->
+  <rect x="60" y="272" width="640" height="26" rx="4" fill="url(#spec)"/>
+  <text x="60" y="266" font-size="13" fill="#7f1d1d">Infrared / red</text>
+  <text x="700" y="266" text-anchor="end" font-size="13" fill="#4c1d95">Violet / UV</text>
+  <line x1="80" y1="314" x2="680" y2="314" stroke="#333" stroke-width="1.5"/>
+  <polygon points="690,314 678,308 678,320" fill="#333"/>
+  <text x="380" y="336" text-anchor="middle" font-size="14" fill="#222">bigger gap → more energy (E = h·f) → higher frequency → shorter wavelength</text>
+  <text x="380" y="364" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">f = c / λ  (frequency and wavelength are inversely related)</text>
+</svg>
